@@ -20,7 +20,7 @@ cythonを用いた行列計算の高速化について
 他方、次位となるのは5である。まあ、データ配列にポインターでアクセスしたので、早くなって当然なのだが、コードが読みづらい?  
 どうしてもClassを使い場合は6のようにすればよいだろう。  
   
-[参考]
+[参考]  
 ・NumPyが物足りない人へのCython入門  
 http://www.slideshare.net/lucidfrontier45/cython-intro  
 https://github.com/tokyo-scipy/archive/tree/master/003/cython_intro/final  
