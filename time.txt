@@ -1,0 +1,84 @@
+pure python
+Tue Dec 31 22:27:00 2013    Profile.prof
+
+         2 function calls in 100.808 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1  100.808  100.808  100.808  100.808 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+python numpy
+Tue Dec 31 22:27:00 2013    Profile.prof
+
+         2 function calls in 0.090 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.090    0.090    0.090    0.090 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+cython class
+Tue Dec 31 22:27:18 2013    Profile.prof
+
+         106 function calls in 17.667 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      100   17.654    0.177   17.654    0.177 matmult2.pyx:49(main)
+        1    0.007    0.007    0.007    0.007 matmult2.pyx:20(__cinit__)
+        1    0.005    0.005   17.667   17.667 matmult2.pyx:69(wrapper_matmult)
+        1    0.000    0.000   17.667   17.667 {matmult2.wrapper_matmult}
+        1    0.000    0.000   17.667   17.667 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 matmult2.pyx:58(__dealloc__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+cython function
+Tue Dec 31 22:27:18 2013    Profile.prof
+
+         3 function calls in 0.522 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.522    0.522    0.522    0.522 {matmult3.wrapper_matmult}
+        1    0.000    0.000    0.522    0.522 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+cython function typed memoryview and raw pointer
+Tue Dec 31 22:27:19 2013    Profile.prof
+
+         5 function calls in 0.209 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.209    0.209    0.209    0.209 {matmult4.wrapper_matmult}
+        1    0.000    0.000    0.000    0.000 {numpy.core.multiarray.array}
+        1    0.000    0.000    0.209    0.209 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 numeric.py:514(ascontiguousarray)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+cython class typed memoryview
+Tue Dec 31 22:27:19 2013    Profile.prof
+
+         203 function calls in 0.870 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.868    0.868    0.870    0.870 {matmult5.wrapper_matmult}
+      100    0.001    0.000    0.001    0.000 {numpy.core.multiarray.array}
+      100    0.000    0.000    0.001    0.000 numeric.py:514(ascontiguousarray)
+        1    0.000    0.000    0.870    0.870 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
